@@ -1,3 +1,2 @@
-let Scheduler = require('./Scheduler');
+module.exports = require('./scheduler');
 
-module.exports = Scheduler;
