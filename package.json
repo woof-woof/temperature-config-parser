@@ -1,5 +1,5 @@
 {
-  "name": "temp-scheduler",
+  "name": "temperature-config-parser",
   "version": "1.0.0",
   "description": "Temperature scheduler, for use with a thermostat",
   "main": "index.js",
