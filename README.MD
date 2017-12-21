@@ -1,17 +1,17 @@
 # Temperature scheduler, for use with a thermostat
 
 ## Usage
-```
+```js
 const scheduler = require('temperature-scheduler');
-...
+//...
 let res = scheduler.getProgram(config, date);
 console.log('desired temperature is', res.temperature);
 console.log('active program is', res.programName);
 ```
 
 
-## JSON Config
-```
+## Config
+```yml
 temperature:
   <string>: <float>
   night: 18
