@@ -1,0 +1,23 @@
+{
+  "name": "temp-scheduler",
+  "version": "1.0.0",
+  "description": "Temperature scheduler, for use with a thermostat",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "keywords": [
+    "temperature",
+    "scheduler",
+    "thermostat"
+  ],
+  "author": "woof woof",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "mocha": "^4.0.1"
+  }
+}
