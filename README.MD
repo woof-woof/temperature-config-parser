@@ -2,7 +2,7 @@
 
 ## Usage
 ```js
-const scheduler = require('temperature-scheduler');
+const scheduler = require('temperature-config-parser');
 //...
 let res = scheduler.getProgram(config, date);
 console.log('desired temperature is', res.temperature);
@@ -19,7 +19,7 @@ temperature:
 day:
   <string>:
     - {time: '<HH>:<MM>', temperature: <temperature>}
-  weekend
+  weekend:
     - {time: '23:30', temperature: night}
 
 week:
