@@ -5,7 +5,6 @@
 const scheduler = require('temperature-config-parser');
 // ...
 let res = scheduler.getProgram(config, date); // date is optional, defaults to Current Date
-let res2 = scheduler.getProgram(config); 
 console.log('desired temperature is', res.temperature);
 console.log('active program is', res.programName);
 ```
