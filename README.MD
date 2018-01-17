@@ -3,8 +3,8 @@
 ## Usage
 ```js
 const scheduler = require('temperature-config-parser');
-//...
-let res = scheduler.getProgram(config, date);
+// ...
+let res = scheduler.getProgram(config, date); // date is optional, defaults to Current Date
 console.log('desired temperature is', res.temperature);
 console.log('active program is', res.programName);
 ```
